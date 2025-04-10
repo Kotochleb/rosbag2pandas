@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<package format="3">
+  <name>rosbag2pandas</name>
+  <version>0.0.0</version>
+  <description>Tool to convert rosbags from ROS 2 into Pandas-compatible storage formats</description>
+  <maintainer email="krzy.wojciecho@gmail.com">Krzysztof Wojciechowski</maintainer>
+  <author email="krzy.wojciecho@gmail.com">Krzysztof Wojciechowski</author>
+
+  <license>BSD-3-clause</license>
+  <url type="website">https://github.com/Kotochleb/rosbag2pandas</url>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>ros2bag</exec_depend>
+  <exec_depend>rosbag2_py</exec_depend>
+  <exec_depend>rosidl_runtime_py</exec_depend>
+  <exec_depend>rosbag2_storage_mcap</exec_depend>
+  <exec_depend>python3-pandas</exec_depend>
+  <exec_depend>python3-tqdm</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

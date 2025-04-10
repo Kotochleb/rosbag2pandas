@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Linter cache
+.ruff_cache
+
+# Colcon custom files
+COLCON_IGNORE
+AMENT_IGNORE
+
+# VS Code
+.vscode
+
+# Output files of the converter
+*.csv
+*.parquet
+*.pickle
+
+rosbag2pandas/test/__pycache__
